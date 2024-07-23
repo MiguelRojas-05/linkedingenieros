@@ -1,0 +1,72 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-campo{
+    background-color: var(--crema);
+    border: 2px solid gainsboro;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.tb-ape{
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tb-ape th, .tb-ape td{
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.text-area{
+    background-color: var(--crema);
+    border: 2px solid gainsboro;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-guardar{
+    width: 100%;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/*Este estilo hace que el boton cambie de color al momento de pasar el cursor*/
+.Boton:hover{
+    background-color: darkcyan;
+}
+
+/*Este estilo hace que los campos input y textarea tengan un borde al momento de escribir en ellas*/
+input:focus,textarea:focus,select:focus{
+    border: 2px solid lightblue;
+    outline: none;
+}
+
+.lst-sector{
+    width: 100%;
+    padding: 5px;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: var(--crema);
+    border: 2px solid gainsboro;
+}

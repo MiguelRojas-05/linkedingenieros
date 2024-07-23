@@ -1,0 +1,61 @@
+:root {
+    --azul: rgb(10, 102, 194);
+    --blanco: rgb(255, 255, 255);
+    --crema: rgb(244, 242, 238);
+    --marron: rgb(102, 102, 102);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--crema);
+    margin: 0;
+    padding: 0;
+}
+
+.ContainerDetallePropuesta {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--blanco);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: var(--azul);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+}
+
+b {
+    color: var(--azul);
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--azul);
+    color: var(--blanco);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.button:hover {
+    background-color: darken(var(--azul), 10%);
+}

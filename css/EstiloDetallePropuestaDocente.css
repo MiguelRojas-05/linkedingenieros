@@ -1,0 +1,56 @@
+:root {
+    --azul: rgb(10, 102, 194);
+    --blanco: rgb(255, 255, 255);
+    --crema: rgb(244, 242, 238);
+    --marron: rgb(102, 102, 102);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--crema);
+    margin: 0;
+    padding: 0;
+}
+
+.ContainerDetallePropuesta {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--blanco);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--marron);
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+b {
+    color: var(--marron);
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--azul);
+    color: var(--blanco);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #0056b3;
+}

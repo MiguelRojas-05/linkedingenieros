@@ -1,0 +1,79 @@
+body{
+    background-color: var(--crema);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input, textarea{
+    background-color: var(--crema);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid gainsboro;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+td{
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+#Fieldset{
+    width: 34%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: var(--blanco);
+    border-style: none; 
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.Text{
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.TextRazonSocial{
+    width: 95%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.TextDescripcion{
+    width: 94%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+}
+
+.Boton{
+    width: 98%;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+
+/*Este estilo hace que el boton cambie de color al momento de pasar el cursor*/
+.Boton:hover{
+    background-color: darkcyan;
+}
+
+/*Este estilo hace que los campos input y textarea tengan un borde al momento de escribir en ellas*/
+input:focus,textarea:focus{
+    border: 2px solid lightblue;
+    outline: none;
+}
+.lst-sectore{
+    width: 95%;
+    padding: 5px;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: var(--crema);
+    border: 2px solid gainsboro;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+

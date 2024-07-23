@@ -1,0 +1,115 @@
+:root {
+    --azul: rgb(10, 102, 194);
+    --blanco: rgb(255, 255, 255);
+    --crema: rgb(244, 242, 238);
+    --marron: rgb(102, 102, 102);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--crema);
+    margin: 0;
+    padding: 0;
+}
+
+.ContainerTalentos {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--blanco);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: var(--azul);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-form .btn-primary {
+    background-color: var(--azul);
+    border: none;
+    border-radius: 5px;
+    color: var(--blanco);
+}
+
+.search-form .btn-primary:hover {
+    background-color: darken(var(--azul), 10%);
+}
+
+.user-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.user-row:last-child {
+    border-bottom: none; /* Elimina el borde inferior en la última fila */
+}
+
+.user-image {
+    margin-right: 15px;
+}
+
+.user-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Asegura que la información ocupe el espacio disponible */
+}
+
+.user-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--marron);
+    margin: 0;
+}
+
+.user-details {
+    font-size: 0.9em;
+    color: var(--marron);
+    margin: 0;
+}
+
+.user-action {
+    margin-left: auto; /* Alinea el botón a la derecha */
+}
+
+.user-action .btn-primary {
+    background-color: var(--azul);
+    border: none;
+    border-radius: 5px;
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+

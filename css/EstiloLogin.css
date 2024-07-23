@@ -1,0 +1,89 @@
+:root {
+    --azul: rgb(10, 102, 194);
+    --blanco: rgb(255, 255, 255);
+    --crema: rgb(244, 242, 238);
+    --marron: rgb(102, 102, 102);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--crema);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.containerindex {
+    background-color: var(--blanco);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.containerindex img {
+    border-radius: 20%;
+}
+
+.containerindex h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.containerindex input[type="text"],
+.containerindex input[type="password"] {
+    width: calc(75% - 20px);
+    padding: 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-position: 8px center;
+    padding-left: 45px;
+}
+
+.containerindex input[type="text"] {
+    background-image: url('../img/email.png');
+    background-repeat: no-repeat;
+}
+
+.containerindex input[type="password"] {
+    background-image: url('../img/pass.png');
+    background-repeat: no-repeat;
+}
+
+.containerindex input[type="submit"] {
+    background-color: var(--azul);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.containerindex input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.botones-enviado {
+    margin-top: 20px;
+}
+
+.botones-enviado a {
+    color: var(--azul);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.botones-enviado a:hover {
+    text-decoration: underline;
+}
+
+
+h4 {
+    color: #0b0a5f; 
+}

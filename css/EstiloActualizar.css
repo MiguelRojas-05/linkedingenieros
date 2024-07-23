@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tb-apa th, .tb-apa td{
+    text-align: center;
+    padding: 8px;
+}
+
+.tb-apa{
+    background-color: var(--crema);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tb-pass th, .tb-pass td{
+    text-align: center;
+    padding: 6px;
+}
+
+.tb-pass{
+    background-color: var(--crema);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tb-apd th, .tb-apd td{
+    text-align: center;
+    padding: 6px;
+}
+
+.tb-apd{
+    background-color: var(--crema);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.lst-escuela{
+    width: 100%;
+    padding: 5px;
+    height: 38px;
+    font-size: 16px;
+}
+
+.btn-actualizar, .btn-pass, .btn-guardar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

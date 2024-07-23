@@ -1,0 +1,78 @@
+:root {
+    --azul: rgb(10, 102, 194);
+    --blanco: rgb(255, 255, 255);
+    --crema: rgb(244, 242, 238);
+    --marron: rgb(102, 102, 102);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--crema);
+    margin: 0;
+    padding: 0;
+}
+
+.ContainerPostulaciones {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--blanco);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+h1 {
+    color: var(--azul);
+    margin-bottom: 20px;
+    text-align: center; /* Centra el encabezado */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Centra la tabla horizontalmente */
+}
+
+thead {
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center; /* Centra el texto en las celdas */
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: var(--crema);
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+a {
+    color: var(--azul);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--blanco);
+    border: 1px solid var(--azul);
+    border-radius: 5px;
+    transition: background-color 0.7s, color 0.3s;
+}
+
+a:hover {
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+.opciones {
+    text-align: center;
+}

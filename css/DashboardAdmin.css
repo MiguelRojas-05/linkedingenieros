@@ -1,0 +1,12 @@
+
+.link-sobre{
+    transition: all .5s !important;
+    cursor: pointer;
+}
+.link-sobre:hover{
+    text-shadow: 1px 1px 9px rgb(255, 255, 255);
+}
+
+.offcanvas{
+    visibility: visible !important;
+}

@@ -1,0 +1,49 @@
+@import url('VariablesGenerales.css');
+
+
+.user-panel {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+.user-panel:hover{
+    text-shadow: 1px 1px 10px var(--marron); 
+}
+.user-panel .image {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-panel .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.user-panel .info span {
+    color: var(--marron);
+    text-decoration: none;
+    font-weight: bold;
+}
+.user-panel .info span:hover {
+    text-decoration: none;
+}
+.navbar-toggler {
+    border: none;
+}
+.parallax {
+    /* The image used */
+    background-image: url('https://dondeestudiar.pe/wp-content/uploads/2024/01/universidad-jose-faustino-sanchez-carrion-peru.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
